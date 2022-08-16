@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>login</title>
+</head>
+<body> 
+    <div class="div1">
+<form class="myform"><CENTER>
+    <h1>Login Here</h1>
+ <!-- <label>Username</label>
+ <input type="text" id="user" placeholder="Enter user name"> <br><br><br> -->
+
+ <label>Email-id</label>
+ <input type="email" id="email" placeholder="Enter Email-id"><br>
+ <label>Password</label>
+ <input type="password" id="pswd" placeholder="Enter password"><br> 
+
+ <button class="btn" onclick="check()">LOGIN</button></CENTER>
+</form>
+</div>
+<style>
+
+    body { background-image: url(img/game2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            }
+    .myform{
+        background-image: radial-gradient(circle, #ff0000, #ff5e00, #f98b00, #f0b100, #e5d300, #e5d300, #e5d200, #e5d200, #f0b000, #f88a00, #fd5d00, #fd0000);
+              margin-top: 150px; 
+              margin-left: 250px; 
+              width:400px;
+              height:400px;
+              padding-top:15px;
+              padding-bottom: 25px;
+              border: solid black 5px;
+              border-radius: 20px;
+            }
+    .btn { width:120px;background-color:rgb(247, 0, 255);border-radius: 10px;}
+
+    input,.btn {margin-top:60px ;}
+    h1{color:white}
+</style>
+
+ <script>
+ function check(){
+var str=document.getElementById('pswd').value;
+ if (str.match(/[a-z]/g) &&
+     str.match(/[A-Z]/g) &&
+     str.match(/[0-9]/g) &&
+     str.match(/[^a-zA-Z\d]/g) &&
+     str.length>=8)
+     window.open("./home.html")
+     
+ else 
+    alert("password is invalid \n GUIDELINES \n *Password should be equal or greater than 8 characters. \n *Password should contain at least 1 lowercase alphabet,1 uppercase alphabet. \n*Password should contain  aleast one numeric value and one special character.")
+ }
+
+    </script>
+</body> 
+</html>

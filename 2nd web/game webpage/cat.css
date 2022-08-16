@@ -1,0 +1,46 @@
+body {background-image: linear-gradient(to right bottom, #06c9ff, #00ddfa, #00eddd, #00f9ad, #87ff72, #a2ff58, #bdff3a, #d9fd00, #bafb00, #96f900, #69f700, #00f415);}
+button,img,video{border:solid white 4px;border-radius:20px;}
+video{padding-top:0px;}
+button {border-radius:5px; background-color:#00f7ff}
+a{color:white;font-size: 30px;}
+h6{font-size:60px;color:#00ff00; background-color:white;margin-top:0cm}
+p {color:rgb(241, 43, 43);font-size: 35px;}
+footer {text-align: center;padding:3px;background-color:rgb(252, 0, 0);}
+#cr {color:white;} 
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.691);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px ;
+  }
+ .logo{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 60px; 
+    justify-content: space-between;
+    color:  rgb(255, 255, 255);
+
+  }
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+ 
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    margin-right:50px ;
+    
+  }
+  
+  
